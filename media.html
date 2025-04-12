@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <div>
+        <a href="./index.html">Home</a>
+        <a href="./media.html">Media</a>
+        <a href="./table.html">Table</a>
+    </div>
+    <div>
+        <h1>Good day I'm Reuben Oyakhilome Ohue</h1>
+        <p>This is a webpage about myself using the video, audio and image elements in html.</p>
+        <div>
+         <!-- Using the picture element for responsiveness as stated -->
+         <picture>
+            <source srcset="./Assets/Images/IMG 1-mobile.jpg" media="(min-width: 599px)">
+            <source srcset="./Assets/Images/IMG 1-tablet.jpg" media="(min-width: 600px) and (max-width: 1024px)">
+            <source srcset="./Assets/Images/IMG 1-laptop.jpg" media="(min-width: 1025px)">
+            <img src="./Assets/Images/IMG 1.jpg" alt="A picture of myself">
+         </picture>
+        </div>
+
+        <p><b>To know more about my activies so far you can check out media elements below.</b></p>
+
+        <video width="320" height="240" controls>
+            <source src="./Assets/Videos/Video 1.mp4" type="video/mp4">
+        </video>
+        
+        <br>
+
+        <audio controls>
+            <source src="./Assets/Audio/Audio 1.unknown" type="audio/mp4">
+        </audio>
+</body>
+</html>
